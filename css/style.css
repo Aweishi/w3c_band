@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=arial:100,300,400,500,700,900&display=swap');
+
+
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration: none;
+	/*font-family: lato,sans-serif;*/
+
+}
+nav{
+	width: 100%;
+	height: 45px;
+	background-color: #000;
+}
+
+.clearfix{
+	clear: both;
+}
+.colorW{
+	color: #fff;
+}
+.colorG{
+	color: #757575;
+}
+.colorB{
+	color: #000;
+}
+.menu a{
+	float: left;
+	line-height: 46px;
+	color: #fff;
+	padding: 0 20px;
+	font-size: 15px;
+}
+
+.menu a:hover{
+	color: #000;
+	background-color: #ccc;
+}
+
+.menu i{
+	color: #fff;
+	float: right;
+	line-height: 46px;
+	padding: 0 20px;
+}
+
+.headerbanner{
+	box-sizing: border-box;
+	width: 100%;
+	padding-top: 640px;
+	background-position: top;
+	background-size: cover;
+	background-image: url(../assets/asset0.jpeg);
+}
+.header-title{
+	text-align: center;
+	color: #fff;
+}
+
+.header-title h3{
+	padding-bottom: 25px;
+}
+.header-title p{
+	padding-bottom: 45px;
+}
+
+.content{
+	width: 1200px;
+	margin: auto;
+}
+
+.theBand{
+
+	padding: 80px 0 110px 0;
+	
+}
+.title{
+	font-family: arial,sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+	padding-bottom: 35px;
+	letter-spacing: 4px;
+	text-align: center;
+}
+.subtitle{
+	font-size: 15px;
+	font-style: italic; 
+	text-align: center;
+	padding-bottom: 35px;
+}
+
+.description{
+	width: 60%;
+	margin: auto;
+	padding-bottom: 35px;
+}
+.photogrid{
+	width: 60%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.photogrid li{
+	width: 30%;
+	padding: 0 30px;
+	text-align: center;
+}
+
+.photogrid img{
+	display: block;
+	width: 100%;
+	border-radius: 5px;
+}
+
+.tourdates{
+	padding: 80px 0 110px 0;
+	background-color: #000;
+}
+
+.datalist{
+	background-color: #fff;
+	width: 60%;
+	margin: auto;
+}
+
+.datalist p{
+	font-size: 15px;
+}
+
+.datalist li{
+	padding: 8px 16px;
+	display: flex;
+	border-bottom: 1px solid #ccc;
+}
+
+
+
+.tag_soldout{
+	margin-left: 8px;
+	padding: 0 5px;
+	box-sizing: border-box;
+	color: #fff;
+	background-color: #f44336;
+}
+
+.badge_3{
+	background-color: #000;
+	padding: 0px 8px;
+	border-radius: 50%;
+	float: right;
+}
+
